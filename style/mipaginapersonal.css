@@ -1,0 +1,99 @@
+a {
+ color: darkred;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    float: left;
+    width: 100%;
+}
+
+header figure {
+    background-color: darkcyan;
+    padding: 20px;
+    width: 300px;
+    float: left;
+}
+
+header figure img {
+    width: 300px;
+    margin-bottom: 12px;
+}
+
+header figure figcaption {
+    text-align: center;
+    margin: 12px;
+}
+
+header h1 {
+    float: left;
+    color: darkcyan;
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+
+header h2 {
+    width: 30%;
+    margin: 30px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    /* padding: 12px; */
+}
+
+section {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    text-align: left;
+    color: darkcyan;
+    margin-left: 50px;
+}
+
+section article h4 {
+    margin: 12px;
+    padding: 5px;
+    font-size: 15px;
+    height: 30px;
+}
+
+section.education article {
+    border: 4px solid darkcyan;
+    float: left;
+    height: 250px;
+    margin-left: 3%;
+    text-align:center;
+    width: 20%;
+}
+
+section.education article figure img {
+    width: 100%;
+    margin-top: 12px;
+}
+
+section.hobbies article {
+    margin-left: 3%;
+    padding: 12px;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+span.bold {
+    font-weight: bold;
+}
